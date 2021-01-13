@@ -1,0 +1,52 @@
+Animation asynchrones
+    comment
+        schema timeline:
+        lumiere 1
+     ___________________
+    _|____|____________|___|___
+      ______________________
+        lumiere 2:
+
+    1)
+        trouver le gap (en secondes) entre le debut de la derniere et la fin de la 
+        premiere
+
+    2)
+        indexer les instructions par ordre chronologique
+
+    3)
+        calculer le gap (en secondes) entre les instructions n et n+1
+    
+    4)
+        passer le tableau d'instructions dans execute
+
+    5) enjoy
+
+    expressions et datastructure :
+
+    json:
+    Animation = '{
+        "1" : {
+            "async" : true,
+            "length" : 5 (en secondes)
+            "content" : {
+                "5" : { (en pourcent de length)
+                    (basic instruction)
+                }
+            }
+        }
+    }'
+
+
+    la sagesse de la pieuvre
+    atypical
+
+
+// RAV (thp)
+un pas en avant
+    si good
+        splice , push
+        incrementer
+        pas en arriere
+
+
